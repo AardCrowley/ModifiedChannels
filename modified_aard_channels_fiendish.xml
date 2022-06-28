@@ -124,7 +124,7 @@ USAGE:
 <aliases>
 
 <alias
-   match="^ig(?:n|no|nor|nore)?\s?(\w+)?$"
+   match="^ig(?:nore|nor|no|n)?([\s\w]+)?$"
    enabled="y"
    regexp="y"
    sequence="100"
